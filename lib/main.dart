@@ -13,12 +13,10 @@ class MyApp extends StatelessWidget {
         home: Scaffold(
           body: Container(
             decoration: const BoxDecoration(
-                gradient: LinearGradient(
-              colors: [
-                Color.fromARGB(255, 187, 106, 201),
-                Color.fromARGB(255, 177, 21, 204)
-              ],
-            )),
+                gradient: LinearGradient(colors: [
+              Color.fromARGB(255, 190, 64, 212),
+              Color.fromARGB(255, 106, 92, 189)
+            ], begin: Alignment.topLeft, end: Alignment.bottomRight)),
             child: const StartScreen(),
           ),
         ));
